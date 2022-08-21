@@ -54,7 +54,7 @@ a {
 h1 {
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: #f52525;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -82,8 +82,10 @@ h2 {
     display: flex;
     gap: 30px;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .info-img {
@@ -94,6 +96,6 @@ h2 {
 }
 
 .text {
- 
+ text-align: center;
 }
 
