@@ -4,18 +4,12 @@ body {
     margin: 0;
 }
 
-.container {
-    padding: 50px;
-    background-color:#1F2937;
-}
-
 .main {
     display: flex;
-    align-items: center;
-    background-color: #1F2937;
+    background-color: #034762;
     padding: 0 60px;
     min-height: 300px;
-    padding: 0 70px;
+    padding: 70px 70px;
 }
 
 .header {
@@ -43,7 +37,7 @@ a {
 }
 
 .nav {
-    background-color: #1F2937;
+    background-color: rgb(226, 80, 80);
     padding: 0 70px;
 }
 
@@ -62,11 +56,44 @@ h1 {
     font-weight: 800;
     color: #f9faf8;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #EFE7EB;
     margin-top: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-img {
+   border: 4px solid bisque;
+   border-radius: 2px;
+   width: 150px;
+   height: 150px;
+}
+
+.text {
+ 
 }
 
