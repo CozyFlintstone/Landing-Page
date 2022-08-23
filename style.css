@@ -82,6 +82,7 @@ h2 {
     display: flex;
     gap: 30px;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .info {
@@ -99,3 +100,15 @@ h2 {
  text-align: center;
 }
 
+.tbox {
+    background-color: #E5E7EB;
+    min-height: 250px;
+    text-align: center;
+}
+
+.quote {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
