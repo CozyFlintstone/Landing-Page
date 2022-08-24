@@ -51,6 +51,14 @@ a {
     padding: 0 50px;
 }
 
+.herobox1 a {
+    text-decoration: none;
+    background-color: #d51212;
+    padding: 3px 15px;
+    border-radius: 3px;
+    color: #ffffffad;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 800;
@@ -66,9 +74,13 @@ h1 {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: red;
     color: white;
     padding: 0 10px;
+}
+
+.herobox1 a {
+    text-decoration: none;
 }
 
 h2 {
