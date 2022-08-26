@@ -2,11 +2,12 @@ body {
     min-height: 100vh;
     min-width: 30%;
     margin: 0;
+    background-color: #f1baba;
 }
 
 .main {
     display: flex;
-    background-color: #034762;
+    background-color: #620303;
     padding: 0 60px;
     min-height: 300px;
     padding: 70px 70px;
@@ -37,7 +38,7 @@ a {
 }
 
 .nav {
-    background-color: rgb(226, 80, 80);
+    background-color: rgb(0, 0, 0);
     padding: 0 70px;
 }
 
@@ -62,7 +63,7 @@ a {
 h1 {
     font-size: 48px;
     font-weight: 800;
-    color: #f52525;
+    color: #f1baba;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -90,10 +91,16 @@ h2 {
     text-align: center;
 }
 
+
+.contact {
+
+}
+
 .container {
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
     padding-bottom: 100px;
 }
 
@@ -139,6 +146,40 @@ h2 {
     content: "\2014\0020"
 }
 
+
 footer {
     height:  200px;
+    background-color: wheat;
 }
+
+.wrapper {
+    background-color: ;
+}
+
+.action {
+    height: 100px;
+    display: flex;
+    background-color: rgb(215, 219, 140) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0 solid blue;
+    padding: 0px 10px;
+    margin: 80px;
+}
+
+
+h3 {
+    margin-bottom: 0;
+}
+
+.action p {
+    margin-top: 0;
+
+}
+
+.signup {
+    display:flex;
+    justify-content: space-between;
+}
+
