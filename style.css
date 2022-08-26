@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     min-width: 30%;
     margin: 0;
-    background-color: #f1baba;
+    background-color: #f1baba69;
 }
 
 .main {
@@ -92,9 +92,6 @@ h2 {
 }
 
 
-.contact {
-
-}
 
 .container {
     display: flex;
@@ -146,26 +143,17 @@ h2 {
     content: "\2014\0020"
 }
 
-
-footer {
-    height:  200px;
-    background-color: wheat;
-}
-
-.wrapper {
-    background-color: ;
-}
-
 .action {
     height: 100px;
     display: flex;
-    background-color: rgb(215, 219, 140) ;
+    background-color: rgba(220, 139, 26, 0.612);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 0 solid blue;
-    padding: 0px 10px;
+    padding: 0px 50px;
     margin: 80px;
+    border-radius: 5px;
 }
 
 
@@ -178,8 +166,19 @@ h3 {
 
 }
 
-.signup {
-    display:flex;
-    justify-content: space-between;
+.right-side a {
+    text-decoration: none;
+    padding: 4px 29px;
+    border: 1px solid white;
+    border-radius: 6px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 90px;
+    background-color: rgb(139, 13, 13);
+    color: #f9faf8;
+}
